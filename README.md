@@ -9,6 +9,7 @@ This repository contains a PyTorch implementation of the VGGNet architecture as 
 pip install -r requirements.txt
 ```
 4. Directory structure will be as follows-
+```bash
 root
 |-- model.py
 |-- train.py
@@ -16,6 +17,7 @@ root
     |-- data
         |-- train
         |-- val
+```
 5. run
 ```python
 python train.py
