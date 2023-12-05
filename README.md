@@ -8,7 +8,7 @@ This repository contains a PyTorch implementation of the VGGNet architecture as 
 2. Only preprocessing is subtracting the mean RGB value, computed on the training set, from each pixel
 3. Convolution is performed over a 3 × 3 kernal, with stride 1.
 4. Max-pooling is performed over a 2 × 2 pixel window, with stride 2.
-5. The stack of convolutional layers is followed by **three** Fully-Connected (FC) layers: the ==first two have 4096 channels each==, the third performs 1000- way ILSVRC classification and thus contains 1000 channels (one for each class).
+5. The stack of convolutional layers is followed by **three** Fully-Connected (FC) layers: the first two have 4096 channels each, the third performs 10- way ILSVRC classification and thus contains 10 channels (one for each class).
 6. Training -
 	a) mini-batch gradient descent (based on back-propagation (LeCun et al., 1989)) with momentum.
 		batch size was set to 256, momentum to 0.9
