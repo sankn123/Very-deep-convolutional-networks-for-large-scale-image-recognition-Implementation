@@ -4,8 +4,11 @@ This repository contains a PyTorch implementation of the VGGNet architecture as 
 
 ### Training
 1. Download and extract dataset as mentioned in [dataset](https://github.com/Attila94/CODaN)
-2. run ```python pip install -r requirements.txt```
-3. Directory structure will be as follows-
+2. run
+```python
+pip install -r requirements.txt
+```
+4. Directory structure will be as follows-
 root
 |-- model.py
 |-- train.py
@@ -13,7 +16,10 @@ root
     |-- data
         |-- train
         |-- val
-4. run ```python python train.py```
+5. run
+```python
+python train.py
+```
 
 
 
