@@ -2,6 +2,22 @@
 This repository contains a PyTorch implementation of the VGGNet architecture as described in the paper "Very Deep Convolutional Networks for Large-Scale Image Recognition" by Karen Simonyan and Andrew Zisserman.
 - Citation- Simonyan, K., & Zisserman, A. (2015). Very deep convolutional networks for large-scale image recognition. 3rd International Conference on Learning Representations (ICLR 2015), 1–14.
 
+### Training
+1. Download and extract dataset as mentioned in [dataset](https://github.com/Attila94/CODaN)
+2. run ```python pip install -r requirements.txt```
+3. Directory structure will be as follows-
+root
+|-- model.py
+|-- train.py
+|-- codan
+    |-- data
+        |-- train
+        |-- val
+4. run ```python python train.py```
+
+
+
+
 **NOTES**
 
 1. Input is a fixed-size 224 × 224 RGB image
