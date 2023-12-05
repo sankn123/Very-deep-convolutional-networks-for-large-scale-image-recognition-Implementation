@@ -24,6 +24,7 @@ This repository contains a PyTorch implementation of the VGGNet architecture as 
 
 ### Model Architecture
 
-![](images/verydeepcnnarch.png)
+![](verydeepcnnarch.png)
+
 
 
